@@ -12,6 +12,7 @@ Since you are now required to have an API key, you need to have a backend handle
 
 2. In whatever controller you'd like to use, add this to your actions() method, you may name your action something other than 'get_tweets' if you want, and make sure you reference the TweetFetch CAction class properly:
 
+```php
     public function actions() {
         return array(
             'get_tweets' => array(
@@ -19,9 +20,11 @@ Since you are now required to have an API key, you need to have a backend handle
             )
         );
     }
+```
     
 3. The widget declaration is the same, but I added some other parameters in there:
 
+```php
     $this->widget('ext.new-tweet.Tweets', array(
         'id' => 'twitter-feed',
         'csrfToken' => true, // set this to true if you enabled CSRF validation
@@ -35,4 +38,4 @@ Since you are now required to have an API key, you need to have a backend handle
             'count' => 6
         )
     ));
-    
+```
