@@ -1,5 +1,5 @@
-Yii New Tweet
-=============
+Yii New Tweet Widget
+====================
 
 This is the new Yii tweet master widget extension that was created by seaofclouds which has been rendered not functional thanks to Twitter  killing off API 1.0.
 
