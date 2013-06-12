@@ -39,3 +39,7 @@ $this->widget('ext.new-tweet.Tweets', array(
     )
 ));
 ```
+Thanks To:
+======
+https://github.com/StanScates
+https://github.com/seaofclouds
